@@ -1,4 +1,5 @@
 // Code your solutions in this file
+<<<<<<< HEAD
 
 function printBadges (names) {
     for (let i = 0; i < names.length; i++) {
@@ -14,4 +15,11 @@ function tailsNeverFails() {
         tails++;
     }
     return `You got ${tails} tails in a row!`;
+=======
+function printBadges (employees) {
+    for (let i = 0; i < employees.length; i++) {
+        console.log("Welcome ${employees[i]}! You are employee #${i +1}.")
+    }
+    return employees;
+>>>>>>> 6af33ef0536db4598e6b99c1776b49ef013358fe
 }
